@@ -22,7 +22,7 @@ Students and young techies are expected to contribute standard and well-read art
 2. Your topic will be reviewed and if accepted you will recieve a feedback to start working on your article. 
 
 ### Submission Instructions
-1. To submit an article for consideration, be sure to first check out[previous published content](https://tch.powerappsports.com) to ensure relevance and prevent wrting an article that is already published. 
+1. To submit an article for consideration, be sure to first check out [previous published content](https://tch.powerappsports.com) to ensure relevance and prevent wrting an article that is already published. 
 
 2. When you're ready to submit a polished (error-free) draft for review, open a PR with your draft. [*View instructions here*](https://github.com/section-io/engineering-education/blob/master/new_contributors/UPLOAD_INSTRUCTIONS.md)
 3. Articles will be reviewed for technical accuracy, relevance, and quality. Comments and requested revisions will be provided within the opened PR.

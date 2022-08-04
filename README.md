@@ -2,7 +2,7 @@
 “The Complete Hub (TC Hub) is a startup/community to provide a wide range of technical and educational resources for developers and tech enthusiasts"
 
 ## Vision
-The vision of TC Hub is to provide 100% technical support for developers and techies, through article and video contents, provided by developers and techies.
+The vision of TC Hub is to provide 100% technical support for developers and techies, through articles and video contents, provided by developers and techies.
 
 ## Mission
 "The mission of TC Hub is to provide a wide range of contents for tech enthusiasts and promote technical writing in the tech ecosystem.”

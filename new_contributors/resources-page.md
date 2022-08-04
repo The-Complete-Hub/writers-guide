@@ -1,7 +1,7 @@
 ### Resources Page
 Below are Google recommended resources that can help improve your writing skills from guides on grammar, writing skills and creating tech tutorials to outstanding articles.
 
-We hope this helps you get started and if you need help, please send across an [email:](admin@thecompletehub.tech).
+We hope this helps you get started and if you need help, please send across an <a href="mailto:admin@thecompletehub.tech">Email</a>.
  
 For new contributors that may need extra assitance on technical writing, please go over these [technical writing courses](https://developers.google.com/tech-writing/overview): 
 

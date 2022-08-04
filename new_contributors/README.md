@@ -15,5 +15,4 @@ Here's a list of our contributor documentation to help you get started on your f
 - [Upload Instructions](https://github.com/The-Complete-Hub/writers-program/blob/main/new_contributors/UPLOAD_GUIDELINES.md): a guide on how to submit your article for review
 
 
-Any other follow up questions? Feel free to send across an [email to admin@thecompletehub.tech](admin@thecompletehub.tech).
-
+Any other follow up questions? Feel free to send across an <a href="mailto:admin@thecompletehub.tech">Email</a>.

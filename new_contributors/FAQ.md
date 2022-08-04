@@ -20,7 +20,7 @@ Here is a link to a [short video](https://www.youtube.com/watch?v=nT8KGYVurIU&am
 Here is a link to a [short video](https://www.youtube.com/watch?v=nT8KGYVurIU&amp;t=47s) further explaining what a pull request is and how to fork a Github repository.
 
 ### How do I add my author page
-Include a short Author Biography (index.md file) and Headshot image (avatar file). Include these files in the [authors folder](https://github.com/The-Complete-Hub/writers-program/tree/main/articles/authors) within the GitHub repo via your forked repo similar to the article files. We want to credit you for your hard work.
+Include a short Author Biography (index.md file) and Headshot image (avatar file). Include these files in the [authors folder](https://github.com/The-Complete-Hub/writers-program/tree/main/contents/authors) within the GitHub repo via your forked repo similar to the article files. We want to credit you for your hard work.
 
 ### I have a merge conflict - how do I resolve it?
 Use this every time before contributing a new article to keep it up to date
@@ -51,4 +51,4 @@ We do not perform any other outside revision service.
 We ask that if you would like to repost an already published article on TC Hub elsewhere, it should have proper adjustments, maybe in writing style or pattern. The same goes for re-publishing an article that is already published somewhere on TC Hub, make sure it is an improvement of the previously published article. This clearly mean that we stand for originality and uniqueness.
 
 ### How can I contribute to the growth of TC Hub or ask a question?
-You can open an Issue in this Repo, clearly stating your suggestion or otherwise [send us an email:](admin@thecompletehub.tech)
+You can open an Issue in this Repo, clearly stating your suggestion or otherwise We hope this helps you get started and if you need help, please send across an <a href="mailto:admin@thecompletehub.tech">Send us an Email</a>.

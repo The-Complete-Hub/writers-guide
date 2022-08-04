@@ -43,6 +43,17 @@ All revisions and edits should be *completed on your forked repo (as to not take
 
 **NOTE: Any article copied/taken/ from any known platform may Lead to a permanent ban from the community. We promote authenticity and originality. Hence, at all times you are required to make an improvement, if you wish to publish an article that is already exisiting on any other platform.**
 
+Once your topic suggestion is approved, you proceed to writing your article, by creating a folder with the article title as the name of the folder, inside the articles directory, found under the contents folder. 
+
+You create a new folder inside the articles directory, with the intending article title as the name of the folder, and in this folder you create your markdown file with the name `index.md` where you write your article using markdown format.You are also expected to add the banner image to be attached to your article in either png or jpg formats in this folder where you have your markdown file. 
+
+Be sure to follow these guidelines, when creating your folders/files:
+- **Use all lowercase.**
+- **Use dashes in place of spaces.**
+- **Do not include any special characters.**
+- **Try to keep it under 40 characters.**
+- **Avoid using periods (.) or commas (,) or (_ ) underscores**
+
 ### Pre-submission advice
 We ask that you please be patient as our team works through approving and publishing all articles/tutorials in a timely manner.
 
@@ -85,7 +96,7 @@ Only submit or create a PR (pull request) when your draft is completely polished
 
 Once again you can follow these [step-by-step instructions](https://github.com/The-Complete-Hub/writers-program/blob/main/new_contributors/UPLOAD_GUIDELINES.md) once your article is ready to be published.
 
-The instructions walk through how to submit a PR in GitHub with  your fully prepared article.
+The instructions walk through how to submit a PR in GitHub with your fully prepared article.
 
 Ensure you go through your articles, to check for English grammar errors, technical accuracy, simplicity, and delivered under the assertion that the content is original to you and includes proper citations (including sourced images).
 

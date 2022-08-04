@@ -4,8 +4,6 @@
 ## Vision
 The vision of TC Hub is to provide 100% technical support for developers and techies, through article and video contents, provided by developers and techies.
 
-[ENROLL HERE](https://docs.google.com/forms/d/e/1FAIpQLSfTbj3kqvEJEb5RLjqJurfbHa8ckzQx0CjRzaizblue9ZOK5A/viewform?usp=sf_link)
-
 ## Mission
 "The mission of TC Hub is to provide a wide range of contents for tech enthusiasts and promote technical writing in the tech ecosystem.”
 

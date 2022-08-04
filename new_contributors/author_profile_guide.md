@@ -1,7 +1,6 @@
 We at TC Hub, are committed to showcase your work to the world, hence you are required to create a profile with us by following the given steps/guidelines: 
 
-1. Within the authors folder (inside the content folder), create a new folder using the intended author name. (Reference existing folders' naming conventions.)
-
+1. Within the authors folder, create a new folder using the intended author name as the name of the folder. 
 Be sure to:
 - **Use all lowercase.**
 - **Use dashes in place of spaces.**
@@ -17,7 +16,7 @@ Be sure to:
 
 (See *screenshot* below for file structure.)
 
-![Author file structure example](images/writers-profile.png)
+![Author file structure example](https://i.ibb.co/XJBs5wT/Screenshot-2022-08-04-at-09-23-48.png)
 
 
 Congratulations! You have successfully provided your profile, to be uploaded on The Complete Hub Website. If you have an article/tutorial ready to be submitted attach it to your pull request (otherwise create a new pull request).

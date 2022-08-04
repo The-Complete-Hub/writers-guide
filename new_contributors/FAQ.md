@@ -3,7 +3,7 @@
 ### How do I suggest a topic to write about?
 1. Firstly review [recently published articles](https://tch.powerappsportals.com/) to avoid topic overlap (and to get a good sense on article style tonality, and quality that we are accepting). 
 
-2. Submit a topic by going through the [contribution guidelines](https://github.com/section-io/engineering-education/issues/new?assignees=&labels=topic+suggestion&template=enged-content-idea-suggestion.md&title=).
+2. Submit a topic by going through the [contribution guidelines](https://github.com/The-Complete-Hub/writers-program/blob/main/new_contributors/CONTRIBUTING.md).
 
 ### What do I stand to gain by publishing an article on TC Hub Platform?
 We are a Startup/Community that is committed to provide 100% technical resources for developers and tech enthusiasts. Your contribution through articles, will help us achieve this goal. 
@@ -11,7 +11,7 @@ We are a Startup/Community that is committed to provide 100% technical resources
 We also understand that a lot is committed to writing and publishing an article, hence, we give Digital badges to our first time contributors and an exclusive branded Merch for our amazing contributors that have contributed 5 or more articles.
 
 ### How do I submit my 1st article?
-Visit our step-by-step guide on [how to upload your 1st EngEd article](https://github.com/section-io/engineering-education/blob/master/new_contributors/UPLOAD_INSTRUCTIONS.md#how-to-upload-an-article-for-sections-engineering-education-program) to the GitHub repo.
+We have a detailed description of how to submit your first article, kindly check out [New Contributors guidelines](https://github.com/The-Complete-Hub/writers-program/blob/main/new_contributors/CONTRIBUTING.md).
 
 ### How do I submit a Pull Request?
 Here is a link to a [short video](https://www.youtube.com/watch?v=nT8KGYVurIU&amp;t=47s) further explaining what a pull request is.
@@ -20,7 +20,7 @@ Here is a link to a [short video](https://www.youtube.com/watch?v=nT8KGYVurIU&am
 Here is a link to a [short video](https://www.youtube.com/watch?v=nT8KGYVurIU&amp;t=47s) further explaining what a pull request is and how to fork a Github repository.
 
 ### How do I add my author page
-Include a short Author Biography (index.md file) and Headshot image (avatar file). Include these files in the [authors folder](https://github.com/section-engineering-education/engineering-education/tree/master/authors) within the GitHub repo via your forked repo similar to the article files. We want to credit you for your hard work.
+Include a short Author Biography (index.md file) and Headshot image (avatar file). Include these files in the [authors folder](https://github.com/The-Complete-Hub/writers-program/tree/main/articles/authors) within the GitHub repo via your forked repo similar to the article files. We want to credit you for your hard work.
 
 ### I have a merge conflict - how do I resolve it?
 Use this every time before contributing a new article to keep it up to date
@@ -34,7 +34,7 @@ This should help prevent any merge conflicts.
 
 
 ### Can I include a video into my articles?
-Yes, please refer to our upload instructions for a [step-by-step guide](https://github.com/section-io/engineering-education/blob/master/new_contributors/UPLOAD_INSTRUCTIONS.md#including-videos-in-your-articles) on how to include YT videos into your articles.
+Yes, please refer to our upload instructions for a [step-by-step guide](https://github.com/The-Complete-Hub/writers-program/blob/main/new_contributors/UPLOAD_GUIDELINES.md#including-videos-in-your-articles) on how to include videos into your articles.
 
 ### Is there a word limit on articles?
 The only requirement is that the article has to be at least 250 words.

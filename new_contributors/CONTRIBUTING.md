@@ -26,14 +26,14 @@ Let's start by reviewing what's needed. (Please ensure to only have ONE open iss
 
 Here is a [free tool](https://writeandimprove.com/?lang=en-GB) to help improve your writing skills. 
 
-All contributors are expected to review and adhere to [Our Code of Conduct](https://github.com/The-Complete-Hub/writers-program/blob/main/CODE_OF_CONDUCT.md)before submitting articles.
+All contributors are expected to review and adhere to [Our Code of Conduct](https://github.com/The-Complete-Hub/writers-program/blob/main/CODE_OF_CONDUCT.md) before submitting articles.
 
 ## Suggesting a topic
 1. Be sure to go through [published articles](https://tch.powerappsportals.com/) to avoid writing an already published content, and be properly informed of the articles format and standard that is accepted. If there are related articles that have been published, have a think about how you can build off those to bring additional value that hasn’t already been presented.
  
 2. Once you have narrowed your topic search to one you would like to write about, open an issue with your **Article Topic** as the title of the Issue, and attach the **Article Topic** label to the issue you are opening. 
 
-If you are quite unfamiliar with using Git and GitHub then check out our [Contribution Guidline using Google docs](https://bit.ly/send-in-your-topic) 
+We understand that not everyone is comfortable with the use of Git and GitHub, hence another way to Suggest a topic is exlained in this document - [TC Hub Topic Suggestion Template](https://docs.google.com/document/d/1I_sqz7NsJlDd_AFXzsn2V6e18yqL0JJmq2_P4SO8yqU/edit?usp=sharing). You are expected to download this document, add your topic suggestion, following the description and send back to us through our email: ***admin@thecompletehub.tech*.
 
 3. *NOTE*: All **1st-time contributors** should know Topic approval and PR submission do NOT guarantee your Topic/Article will be published. Our team of Peer Reviewers and Content Moderators will review all PRs that come in to make sure they adhere to our ever-increasing excellence and standard. 
 
@@ -46,6 +46,8 @@ All revisions and edits should be *completed on your forked repo (as to not take
 Once your topic suggestion is approved, you proceed to writing your article, by creating a folder with the article title as the name of the folder, inside the articles directory, found under the contents folder. 
 
 You create a new folder inside the articles directory, with the intending article title as the name of the folder, and in this folder you create your markdown file with the name `index.md` where you write your article using markdown format.You are also expected to add the banner image to be attached to your article in either png or jpg formats in this folder where you have your markdown file. 
+
+Another alternative is to download the **article** template document, [Aricle Template Document](https://docs.google.com/document/d/1_O-ueokT4rCiK0V9W35f5UaC3EHGym9AnxknXg9MiZM/edit?usp=sharing). Or the [Tutorial Article Template Document](https://docs.google.com/document/d/1SVmxz53zBFUJ51YMCjgjRWINjPDQeoA_Q8j_0ORPpoE/edit?usp=sharing) and follow the guidelines. Then send back an E-mail to us - **admin@thecompletehub.tech**, when you are done working on your article.
 
 Be sure to follow these guidelines, when creating your folders/files:
 - **Use all lowercase.**

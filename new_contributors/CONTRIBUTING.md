@@ -33,7 +33,7 @@ All contributors are expected to review and adhere to [Our Code of Conduct](http
  
 2. Once you have narrowed your topic search to one you would like to write about, open an issue with your **Article Topic** as the title of the Issue, and attach the **Article Topic** label to the issue you are opening. 
 
-We understand that not everyone is comfortable with the use of Git and GitHub, hence another way to Suggest a topic is exlained in this document - [TC Hub Topic Suggestion Template](https://docs.google.com/document/d/1I_sqz7NsJlDd_AFXzsn2V6e18yqL0JJmq2_P4SO8yqU/edit?usp=sharing). You are expected to download this document, add your topic suggestion, following the description and send back to us through our email: ***admin@thecompletehub.tech*.
+We understand that not everyone is comfortable with the use of Git and GitHub, hence another way to Suggest a topic is exlained in this document - [TC Hub Topic Suggestion Template](https://docs.google.com/document/d/1I_sqz7NsJlDd_AFXzsn2V6e18yqL0JJmq2_P4SO8yqU/edit?usp=sharing). You are expected to download this document, add your topic suggestion, following the description and send back to us through our email: **admin@thecompletehub.tech**.
 
 3. *NOTE*: All **1st-time contributors** should know Topic approval and PR submission do NOT guarantee your Topic/Article will be published. Our team of Peer Reviewers and Content Moderators will review all PRs that come in to make sure they adhere to our ever-increasing excellence and standard. 
 

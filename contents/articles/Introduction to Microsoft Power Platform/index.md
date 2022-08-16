@@ -65,7 +65,7 @@ Check out this Codelab [Build your first model-driven app](https://docs.microsof
 
 
 ## Power Automate
-[Power Automate](./Power%20AutomateD%20(1).png)
+![Power Automate](./Power%20AutomateD%20(1).png)
 
 Power Automate is an online workflow service that automates actions across the most common apps and services.
 
@@ -84,7 +84,7 @@ Another good example will be to monitor what people are saying about your busine
 To understand more about Power Automate and Power Automate flows, check out: [Overview of the different types of flows](https://docs.microsoft.com/en-us/power-automate/flow-types).
 
 ## Power BI
-[Power BI](./Power%20BI.png)
+![Power BI](./Power%20BI.png)
 
 Microsoft Power Business Intelligience (BI) is one of the most popular of the five Microsoft Power Platform Products. 
 
@@ -110,6 +110,7 @@ One common workflow in Power BI begins by connecting to data sources in Power BI
 To find out more on Power BI, check out [Power BI documentation](https://docs.microsoft.com/en-us/power-bi/). 
 
 ## Power Virtual Chat Agents
+
 Power Virtual Agents is another amazing Power Platform Product which is used for building AI Powered ChatBots which can be used in custom websites, Applications, and some social media platforms (Facebook, Microsoft Teams, etc). 
 
 Power Virtual Agents are adaptable Artificial Intelligence (AI) chatbots, at your service.

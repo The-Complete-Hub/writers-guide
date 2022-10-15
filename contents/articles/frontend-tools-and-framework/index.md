@@ -48,7 +48,7 @@ Get started with [Angular](https://angular.io/start)
 | **Speed** | Faster |Slower| 
 |**Bundle Size** | Smaller | Larger |
 |**DOM** | Virtual | Real |
-|**Learning Curve** | Steep | Moderate |
+|**Learning Curve** |  Moderate | Steep |
 | **UI Rendering** | Server Side Rendering |Server Side Rendering |
 | **Concept** | bring HTML into JS Works | bring JavaScript into HTML Works |
 

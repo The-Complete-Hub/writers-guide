@@ -6,9 +6,9 @@ author_title: Pentester
 tags: [Golang, Go, CLI, static files]
 ---
 
-or someone who just started writing Go, i have no idea about //go:embed feature which came with the released version: 1.16.
+This article is for someone who just started writing Go, and have no idea about //go:embed feature which came with the released version: 1.16.
 
-A project i was working on recently led to the discoveries.
+A project I was working on recently led to the discoveries.
 
 <!--truncate-->
 

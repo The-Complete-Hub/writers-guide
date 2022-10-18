@@ -3,6 +3,7 @@ slug: a-beginners-guide-to-using-webpack-loaders
 title: A beginners guide to using webpack loaders
 author: [favour]
 tags: [webpack, libraries, JavaScript, Compilers]
+canonical-url: "https://thecompletehub.tech/importing-external-files-using-webpack-loaders"
 ---
 ![image title](./Webpack%20Hero-Img.png)
 

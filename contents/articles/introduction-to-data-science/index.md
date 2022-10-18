@@ -6,6 +6,6 @@ if you wish to enter the Data science world here is a brief tutorial on a machin
 ## The stages of Data Science
 These are the different stages that data scientist partake when working on  to extract knowledge from data. To extract this information,
 they employ various fit-to-purpose models based on machine learning algorithms, statistics, and mathematical methods.
-![image title](./data stages.jpeg)
+![image title](./data stages.png)
 ### Understanding Business Requirement
 This is one of the questions that a data scientist should ask. That is what is the objective of this project? What is my aim on analysing this data? What do I wish to predict? It is required of a data scientist or anyone that wishes to gain insight from a data raw or prepared to know what they are looking for.

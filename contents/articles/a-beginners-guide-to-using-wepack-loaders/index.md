@@ -1,0 +1,307 @@
+---
+slug: a-beginners-guide-to-using-webpack-loaders
+title: A beginners guide to using webpack loaders
+author: [favour]
+tags: [webpack, libraries, JavaScript, Compilers]
+canonical-url: "https://thecompletehub.tech/importing-external-files-using-webpack-loaders"
+---
+![image title](./Webpack%20Hero-Img.png)
+
+In this article,  we will learn about Webpack and how to use Webpack loaders to import external files while making use of Webpack. 
+## Introduction
+
+Webpack may not be straightforward at first, but you will get the hang of it after working with it for some time. 
+
+This tutorial is tailored to suit the needs of a beginner. As a prerequisite, your understanding of HTML, CSS, JavaScript, and the use of the Terminal or a Command Line Interface (CLI) will be helpful. 
+
+## Table Of Contents
+1. What is Webpack?
+2. Installing Webpack
+3. Loaders and Plugins
+4. Making use of Webpack loaders to import various types of files
+
+Let us dive in!
+
+## What is Webpack?
+Webpack is a tool that allows you to modularise your code and helps you to push your codes to one file so you do not need to worry about the hierarchy of your files, especially when working with multiple JavaScript files. 
+
+Webpack also helps you to inject external files, like an SVG, images, your CSS files, or other modern JS codes, into your web app. 
+
+**For a more elaborate definition of Webpack, I find this Wiki's Definition of Webpack to be quite helpful. [Wikipedia's Definition of Webpack](https://en.wikipedia.org/wiki/Webpack)**
+
+## Installing Webpack
+To get started, firstly let us create a directory or folder, save it as "webpack_tutorial" or whatsoever you find appropriate. 
+
+Secondly, we are going to open the "webpack_tutorial" folder with your favorite code editor, in my case is Visual Studio Code!
+
+So I am going to head over to Visual Studio Code and then drag and drop the Folder we last created.
+
+![webpack2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366396574/lhNTHXYhI.png)
+
+As you can see there is no file in our folder and this is totally fine!
+
+The next thing, is to initialize NPM (Node Package Manager), so I am going to open my VS Code Terminal and execute this command: 
+
+```
+npm init
+```
+
+![webpack Image 3.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366427628/7BW6csthf.png)
+
+**Note: You can only run the npm init command if NodeJs is properly installed on your device. Kindly Check out this link to install NodeJS [Installing NodeJS with Package Manager](https://nodejs.org/en/download/package-manager/)**
+
+![webpack Image 4.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366483347/Au8rcPJEK.png)
+
+If you initialized npm properly, it will generate a package.json file for you, just like I have here.
+
+Kindly note that you can always adjust the name, description, author, etc., in your package.json file
+
+Now, we have properly initialized our node package manager and we have our package.json file. The next thing to do is to install Webpack. One thing you should note is that installing Webpack only, can make you have some issues later on, so it is always advisable to install Webpack along with the CLI. So you execute the command below in your terminal. 
+
+```
+npm i webpack webpack-cli --save-dev
+```
+
+![webpack](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366518838/ObOwtI2LR.png)
+
+If you successfully installed Webpack and the CLI, by executing the command above, you should have a package-lock.json file and the node_modules folder in your root directory, just like I have here.
+
+Moving forward now, the first thing to do in configuring your webpack, is to create a new file in your root directory and name it webpack.config.js, and then we are going to add some codes into this our newly created configuration file. 
+
+Add the following codes into your webpack.config.js file:
+
+```
+module.exports = {
+    entry: "./app/index.js"
+};
+```
+So in the code, above we have the module.exports object and then we declared the entry point for our project which is the app directory and in the app directory, you have the index.js file which is your main file. 
+
+The next thing is to create our app folder in our root directory and inside that app folder, you create a new file called index.js, which is the entry point file location specified in the module.exports object.
+
+## Loaders and Plugins
+Now we have successfully installed webpack and set up our webpack.config.js file. So before we continue to import our files using Webpack loaders, you need to understand what are loaders and plugins, because this is what we will be using to successfully handle the importation of our files. 
+
+Whenever there are new things to load in the webpack, for example, we want to import an SVG, or a CSS file, the job of the loaders is simply to bring in these files that we need while things are loaded. So before the final output.js file is created whatever configuration you need to do, to bring in your files is handled by the loaders. And whatever configuration that you need to do after the output.js file is created is handled by the plugins. 
+
+As we proceed to import external files using webpack loaders we will understand more the work of the loaders and plugins. 
+
+## Making use of Webpack loaders to import various types of files. 
+
+**Importing your CSS File**
+The first thing we are going to do is to execute the command below in our terminal
+
+```
+npm install --save-dev css-loader style-loader
+```
+
+Then you add the following into your webpack.config.js file
+
+
+ ```
+ module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+```
+
+![webpack config file new look](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366585041/se1Y64Y_D.png)
+
+Your webpack.config.js file should now look like this. 
+
+We have successfully configured our webpack.config.js file now to be able to load our CSS files and inject our styles into our JavaScript file. 
+
+**Importing an SVG file**
+The first thing to do is to install the SVG Inline Loader for Webpack. You execute the command below in the terminal, to do this. 
+
+```
+npm install svg-inline-loader --save-dev
+```
+After successfully installing the SVG Inline loader for webpack, using the command above, the next thing is to add your configuration in your webpack.config.js file. So you add the code below to your webpack.config.js file, in your rules array. 
+
+```
+    {
+        test: /\.svg$/,
+        use: 'svg-inline-loader'
+    }
+```
+If you did that correctly, your webpack.config.js should look like this. 
+
+
+![webpack config file new look 2](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366599069/UkAyPF5xa.png)
+
+**Kindly note that in some other learning resources, you will have them make use of loader instead of use while trying to configure our SVG file in the rules array, but for consistency, we will make use of use instead of the loader. Also, I have found out that in recent learning resources/docs they make use of " use" instead of the loader, for example in the documentation screenshot below, the loader was used instead.**
+
+
+![webpack config file new look 3](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366614245/Uw7tATi2s.png)
+
+[Image Source](https://www.npmjs.com/package/svg-inline-loader)
+
+
+**Importing images**
+Firstly, you are going to install the Image Loader for Webpack by executing the command in your terminal below:
+
+```
+$ npm install img-loader --save-dev
+```
+Next, we are going to add the Image loader configuration in our webpack.config.js file:
+
+```
+    {
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      use: [
+        'url-loader?limit=10000',
+        'img-loader'
+      ]
+    }
+```
+
+![webpack config file new look 4](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366653999/_YCDr5UUK.png)
+
+Your webpack.config.js file should look like this if you added the Image Loader configuration properly. 
+
+**Importing Babel** 
+This tutorial is targeted at beginners, but I am going to show you how to also import your Babel JS file. 
+
+The first thing we are going to be doing is to run the command below in our terminal to install the Babel Loader package. 
+
+```
+npm install --save-dev babel-loader
+```
+If you have successfully installed the Babel Loader Package, then we are going to add some configuration in our webpack.config.js file and we will be writing Regex Code. Just copy and add the following in your webpack.config.js file. 
+
+```
+    {
+        test: /\.(js)$/,
+        use: "babel-loader",
+    },
+```
+After doing that your webpack.config.js file should now look like this
+
+
+![webpack config file new look 5](https://cdn.hashnode.com/res/hashnode/image/upload/v1644680930811/KdWNCHoOl.png)
+
+We have seen how to import our CSS, SVG, Image, and Babel files by installing their packages and adding the configuration in our webpack.config.js file but that is not all. 
+
+The next thing we are going to be doing now is to add the output object in our webpack.config.js file. 
+
+So we are going to create an output object and add the path and filename parameter into this object, just copy the code below:
+
+```
+output: {
+        path: path.resolve(__dirname, "dist"),
+        filename: "bundle.js"
+    }
+```
+Also, we are going to be importing another module which is the path and this comes directly as long as you are using node, so you do not need to install it, just add this code to the top of your webpack.config.js. file 
+
+```
+const path = require("path")
+```
+If you did everything correctly your webpack.config.js should now look like this
+
+
+![webpack config file new look 6](https://cdn.hashnode.com/res/hashnode/image/upload/v1644681218014/El28jeauTw.png)
+
+One thing to note here is that you are importing four different files and those files will be bundled up into our bundle.js file but we also need to inject these files into our HTML file, and that is what we are going to be doing next, with the help of HTML webpack plugin. 
+
+To install the HTML Webpack Plugin, we run the command below in the terminal: 
+
+```
+npm install --save-dev html-webpack-plugin
+```
+The next thing to do is to add the code below to the top of our webpack.config.js file
+
+```
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+```
+
+Then we add the plugins after the output with the code below: 
+
+```
+  plugins: [new HtmlWebpackPlugin()],
+```
+
+![webpack config file new look 7](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366786930/m2GwXkpsl.png)
+
+If you did everything correctly, your webpack.config.js file should now be like this. 
+
+Finally, we are going to be installing the Webpack Development Server. 
+
+Execute the command below in your terminal:
+```
+npm install webpack-dev-server --save-dev
+```
+**Note while configuring your webpack there are two modes which are the Production and Development modes, so we are going to declare our modes in the webpack.config.js file**
+
+Add the following to your webpack.config.js file to declare the mode. 
+
+```
+mode: process.env.NODE_ENV === "production" ? "production" : "development",
+```
+In the code above we defined our Environment Variarbale or env and called it NODE_ENV and then we assigned the mode to production and gave a condition. In assigning the mode to production, I did not assign it directly as you will find in some other learning resources or documentation. Instead, I assigned the mode with a conditional statement. The condition we gave in the code above is: If it is defined as the production, go ahead and use production mode or else use the development mode.  To define your mode to be development, kindly use this instead: 
+
+```
+mode: process.env.NODE_ENV === "development" ? "development" : "production",
+```
+
+The next thing to do is to add a start and build script, so add the following in your package.json file
+
+```
+    "start": "webpack serve",
+    "build": "NODE_ENV='production' webpack",
+```
+
+Now all configuration has been done in our webpack.config.js file, so if we have an SVG file, an image, or a CSS file, our webpack has been configured properly to handle these files. 
+
+Remember the index.js file we created earlier, inside the app folder, we will go ahead to just add some codes, to test everything we have done so far, so copy the codes below into your index.js file. 
+
+```
+const evenNumbers = [2, 4, 6, 8, 10];
+console.log(evenNumbers);
+```
+Now execute the following commands in your terminal:
+
+```
+npm run build
+```
+
+```
+npm start
+```
+After running these two commands, we see that we now have some files that are automatically generated for us. 
+
+
+![webpack config file new look 8](https://cdn.hashnode.com/res/hashnode/image/upload/v1644366707937/odqyVYJ_v.png)
+
+Remember that we added an Array of Even Numbers in our index.js file and logged the array to the console. Now we also get our console.log coming into our bundle.js file and then in our index.html file generated by our HTML Webpack plugin we have the script tag that has its source pointed to our bundle.js file. As shown in the images below: 
+
+
+![bundle_file_img.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644681343827/yHHrPGFPc.png)
+
+![html_file.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644681368417/MwTxoQQQK.png)
+
+This shows that we have configured our webpack properly in our webpack.config.js file. 
+
+Now you can have a CSS file, an SVG file, an image file, or a modern JS file (Babel JS), in your web project and webpack will help to modularize your files.
+
+
+Hoping you try this out more!
+
+## Conclusion
+In Conclusion:
+- We gave a brief description of Webpack
+- We learned how to install webpack 
+- We briefly discussed about Loaders and plugins
+- And then we saw how to make use of webpack loaders to import various file types using a step-by-step approach. 
+
+## Further Reading:
+1. [Installing Webpack](https://webpack.js.org/guides/getting-started/)
+2. [Webpack Loaders and Plugins](https://stackoverflow.com/questions/37452402/webpack-loaders-vs-plugins-whats-the-difference)
+3. [Making use of webpack loaders to import various file types](https://webpack.js.org/guides/asset-management/)
+
+Happy Coding!

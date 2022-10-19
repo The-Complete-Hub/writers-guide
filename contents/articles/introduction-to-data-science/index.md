@@ -2,16 +2,16 @@
 Data science is all about extracting knowledge and insights from data. 
 Data science techniques have become more and more relevant in the world as we know it.
 it is used in major applications like Netflix, Google, Amazon and so many more it’s also used for research purposes. 
-if you wish to enter the Data science world here is a brief tutorial on a machine learning methods.
+if you wish to enter the Data science world here is a brief tutorial on a the stages of data science.
 ![image title](./banner-2.jpg)
 ## The stages of Data Science
 These are the different stages that data scientist partake when working on  to extract knowledge from data. To extract this information,
 they employ various fit-to-purpose models based on machine learning algorithms, statistics, and mathematical methods.
 ![image title](./data-stages1.jpg)
 ### Understanding Business Requirement
-This is one of the questions that a data scientist should ask. That is what is the objective of this project? What is my aim on analysing this data? What do I wish to predict? It is required of a data scientist or anyone that wishes to gain insight from a data raw or prepared to know what they are looking for.
+This is one of the questions that a data scientist should ask. That is what is the objective of this project? What is my aim on analysing this data? What do I wish to predict? It is required of a data scientist or anyone that wishes to gain insight from a data (raw or prepared) to know what they are looking for.
 ### Data Acquisition
-This is the Gathering of data from different sources once you know your business plan or requirement then you have to acquire the data that will be used to get this answers be it raw or prepared but in some cases that is like that of competitions like kaggle the data is already given therefore this stage can be skipped.
+This is the Gathering of data from different sources once you know your business plan or requirement then you have to acquire the data that will be used to get this answers be it raw or prepared but in some cases for example kaggle competitions the data is already given therefore this stage can be skipped.
 This can be done through web scraping, surveys and downloading data from reliable sources.
 ### Data Processing or cleaning
 Most data that comes from real world sources usually have faulty data, missing values. This is caused maybe by human error i.e. filling wrong data or leaving a space blank or through errors in the formatting of the data it’s in this stage that data is checked and cleaned so that the model that is created can be trained on it. This stage is also one of the most time consuming stages of data science as you might be cleaning thousands of rows and features of data.

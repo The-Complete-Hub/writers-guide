@@ -1,9 +1,9 @@
 ## Introduction
-![image title](./banner-(2).jpg)
 Data science is all about extracting knowledge and insights from data. 
 Data science techniques have become more and more relevant in the world as we know it.
 it is used in major applications like Netflix, Google, Amazon and so many more it’s also used for research purposes. 
 if you wish to enter the Data science world here is a brief tutorial on a machine learning methods.
+![image title](./banner-2.jpg)
 ## The stages of Data Science
 These are the different stages that data scientist partake when working on  to extract knowledge from data. To extract this information,
 they employ various fit-to-purpose models based on machine learning algorithms, statistics, and mathematical methods.

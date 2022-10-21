@@ -9,6 +9,7 @@ Supervised learning is used when we want to predict a certain outcome from a giv
 
 We build a machine learning model from these input/output pairs, which comprise our training set. And our goal is to make accurate predictions for new, never-before-seen data.
 
+![image title](./18186.jpg)
 ## Theory
 For regression, the general prediction formula for a linear model looks as follows: ŷ = w[0] * x[0] + w[1] * x[1] + ... + w[n] * x[n] + b
 
@@ -26,6 +27,7 @@ while, x is (w[0] * x[0] + b) and it’s called the independent feature (this is
 Linear regression is the simplest and most classic linear method for regression.
 Linear regression is a function in the scikit learn Linear model class and makes its predictions using the linear function of the input features
 
+![image title](./linearR.png)
 ### Ridge regression
 Ridge model is also a Linear model for regression, therefore it uses the same formula.
 Though, in ridge regression the coefficients (w) are chosen not only so that they predict well on the training data, but also to fit an additional constraint.

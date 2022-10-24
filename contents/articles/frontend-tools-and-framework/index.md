@@ -54,6 +54,14 @@ Get started with [Angular](https://angular.io/start)
 
 React is preferred over Angular due to it's virtual DOM implementation and rendering optimizations. Additionally, migrating between React's versions is quite easy. Unlike as in Angular, here you don't need to install updates one by one. To top off, React provides developers with  countless existing solutions that they can use.
 
+## Vue
+Vue.js is an open-source JS framework built by Evan You, for building interactive user interfaces. It uses the model-view-viewmodel architecture, basically ensuring that logic is independent of the view so that things are clearer and legible. Vue pays good attention to the view layer of the application, and then works with supporting libraries for other additional functionality leaving the core light in size.
+
+Vue makes unit testing pretty easy. It is very flexible, and the docs also are the easiest to read among all JS frameworks out there. It is also super easy to get started with. Vue is one of the few frameworks that is very popular but not managed by any big corporations.
+
+Get started on Vue [here](https://vuejs.org/guide/introduction.html)
+Learn Vue with video tutorials [here](https://www.vuemastery.com/courses-path/beginner)
+
 ## Conclusion
 React and Angular are both some of the best front end frameworks to use. While deciding the right framework for your application, few things to keep in mind -
 - Core features 

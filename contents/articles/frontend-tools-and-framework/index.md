@@ -60,6 +60,7 @@ Vue.js is an open-source JS framework built by Evan You, for building interactiv
 Vue makes unit testing pretty easy. It is very flexible, and the docs also are the easiest to read among all JS frameworks out there. It is also super easy to get started with. Vue is one of the few frameworks that is very popular but not managed by any big corporations.
 
 Get started on Vue [here](https://vuejs.org/guide/introduction.html)
+
 Learn Vue with video tutorials [here](https://www.vuemastery.com/courses-path/beginner)
 
 ## Conclusion

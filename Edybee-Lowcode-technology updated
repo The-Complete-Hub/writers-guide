@@ -1,0 +1,65 @@
+Slug: low-code-technologies
+Title: Low-code Technologies
+Author: [Blessing O. Edward]
+Tags: [Definition, Benefits, Low-code devs,]
+
+
+Low-Code Technology
+
+Before venturing or kick-starting a journey in the Low-code technology space, you must be aware of what Low code is about, what you stand to gain as a Low-code developer, and a few technologies out there that will help make your journey fun-filled.
+
+Let's begin by understanding what Low-code is. What is Low code?
+
+Low code is a technology that makes programming and development easier and more interesting.
+
+This technology relieves beginner and senior programmers of the burden of building web and android projects from scratch.
+
+It is a technology that transforms text into visuals thereby helping professionals, intermediates, and even beginners to develop applications of their own effectively.
+
+In general, Low code helps make programming interesting. Additionally, one could say that building with Low-code tools is a journey that has come to stay.
+
+Benefits of Low-Code Technology
+
+Now that we have an idea of what Low-code technology is, it is important to know the benefits one stands to gain as a Low-Code developer or programmer.
+
+Some of these benefits include:
+
+•Low code reduces the need for more developers to work on a single project.
+ 
+•It reduces the cost of creating many applications
+
+•It fuels the development rate
+
+ •It bridges the gap between the organization and their customer thereby leading to on-time delivery of customers' needs.
+
+• It requires as low as 10-30% code during app creation, and
+ 
+• It facilitates quick and effective changes to app features when needed.
+ 
+
+Low-Code Technologies
+
+There are diverse Low-code tools out there that can be used for app and web creation, but for this article, we would be looking at just five technologies.
+
+They are;
+
+• Appian
+• VisionX
+• The Mendix Cloud
+• Quick Base
+• Boomi Flow
+
+
+ Appian: The Appian technology consists of DevOps tools including Jenkins. It also has native deployment tools which developers can extend by integrating SDK (Software Development Kit) with plugins created with Java and Javascript.
+
+ VisionX: It is a Low-code technology that integrates Eclipse IDE (Integrated Development Environment) and aids bidirectional code generation. It also aids developers to work with any version control and mainstream test automation.
+
+The Mendix Cloud: This Low-Code technology assists SDLC (System Development Life Cycle)which includes backlog oversight, version control, testing, and development. Developers can integrate this tool to work with Azure, on-premises systems, AWP(Advanced Work Packaging), GCP (Google Cloud Platform), Kubernetes, Cloud Founding, and Docker.
+
+Quick Base: It is a technology that is an integrated stack. It can be used to automatically generate and host applications.  It has diverse use cases, some of which are allowing developers to test functionality with the Quick Base Sandbox, extend functionality with RESTful API (Application Programming Interface), and harness Quick Base Pipelines for drag-and-drop integration.
+
+Boomi Flow: Lastly, this technology provides an open architectural stack that depends on REST API and a broad library of connectors. This tool helps developers to integrate Git, Gitlab, Jenkins, and other source code systems for development.
+
+Conclusion
+• Low-code technology helps to reduce the stress of writing hundreds of thousands of code in a project
+• Low-code technology is for everyone, whether you're a beginner, an intermediate, or an expert developer.

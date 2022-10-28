@@ -1,0 +1,24 @@
+What is Low-Code
+
+Low code is a technology that makes programming and development easier and more fun-filled.
+
+This technology relieves programmers of the burden of building from scratch.
+
+It is a technology that transforms text into visuals thereby helping both professionals, intermediates, and even beginners to develop applications of their own effectively.
+
+
+Benefits of low-code
+ 1.  It reduces the need for more developers
+ 2. It reduces the cost of creating many apps
+ 3. It fuels creation rate
+ 4. It bridges the gap between the organization and their customer thereby leading to on-time delivery of customers' needs.
+ 5. It doesn't require intense coding 
+ 6. It facilitates quick and effective change to app features when needed
+ 
+
+5 low-code technologies
+ 1.  Appian: The Appian technology consist of devops tools including Jenkins. It also has native deployment tools. Developers can extend appian technology by integrating SDK with plugins created with Java and Javascript.
+ 2. VisionX: It is a Low-code technology that integrates Eclipse IDE and aids bidirectional code generation. It also aids developers work with any version control and mainstream test automation.
+ 3. The Mendix Cloud: This Low-Code technology assists SDLC which includes backlog oversight, version control, testing and development. Developers can integrate this tool to work with Azure, on-premises system, AWP, GCP, Kubernetes, Cloud Founding and Docker.
+ 4. Quick Base: It is a technology that is a totally integrated stack. It can be used to automatically generate and host applications.  It has diverse use cases, some of which are allowing developers to test functionality with the Quick Base Sandbox, extend functionality with RESTful API and harnessing Quick Base Pipelines for drag and drop integration.
+ 5. Boomi Flow: Lastly, this technology provides open architectural stack that depends on REST API and a broad library of connectors. Developers can integrate Git, Gitlab, Jenkins and other source code systems for development.
